@@ -10,7 +10,7 @@ public class PortalTextureSetup : MonoBehaviour {
     public Material cameraMatA;
     public Material cameraMatB;
 
-	void Start () {
+	public void Start () {
 	    if (cameraB.targetTexture != null)
         {
             cameraB.targetTexture.Release();

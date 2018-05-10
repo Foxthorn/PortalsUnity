@@ -6,6 +6,8 @@ public class PortalTeleporter : MonoBehaviour {
 
     public Transform player;
     public Transform reciever;
+    public Renderer recieverPlane;
+    public Renderer forwardRenderPlane;
 
     private bool playerIsOverlapping = false;
 
@@ -27,6 +29,8 @@ public class PortalTeleporter : MonoBehaviour {
                 player.position = reciever.position + positionOffset;
 
                 playerIsOverlapping = false;
+                forwardRenderPlane.enabled = false;
+                recieverPlane.enabled = true;
             }
         }
 	}

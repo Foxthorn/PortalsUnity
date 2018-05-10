@@ -292,6 +292,7 @@
     <Compile Include="Assets\PortalCamera.cs" />
     <Compile Include="Assets\PortalTeleporter.cs" />
     <Compile Include="Assets\PortalTextureSetup.cs" />
+    <Compile Include="Assets\RotateToFacePlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ScreenCutoutShader.shader.shader" />
